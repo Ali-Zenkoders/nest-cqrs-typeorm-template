@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@400;700&display=swap');
+
+      body {
+        font-family:
+          Urbanist,
+          Segoe UI,
+          Tahoma,
+          Geneva,
+          Verdana,
+          sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <title>Account Verification</title>
+  </head>
+  <body
+    style="
+      font-family:
+        Urbanist,
+        Segoe UI,
+        Tahoma,
+        Geneva,
+        Verdana,
+        sans-serif;
+      margin: 0;
+      padding: 0;
+    "
+  >
+    <div
+      style="
+        max-width: 600px;
+        margin: 40px auto;
+        background-color: #ffffff;
+        padding: 32px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(161, 131, 109, 0.2);
+      "
+    >
+      <div style="color: #a1836d; font-size: 24px; margin-bottom: 16px">
+        Account Verification
+      </div>
+
+      <div
+        style="
+          font-size: 16px;
+          color: #444444;
+          margin-top: 16px;
+          line-height: 1.6;
+        "
+      >
+        Hi <%= name %>,<br /><br />
+        Thank you for signing up on
+        <span style="color: #a1836d; font-weight: bold">Wedzie</span>! Please
+        use the following OTP to verify your email address:
+      </div>
+
+      <div style="text-align: center; margin: 20px 0">
+        <div
+          style="
+            display: inline-block;
+            background-color: #a1836d;
+            color: #ffffff;
+            font-weight: bold;
+            font-size: 28px;
+            padding: 12px 24px;
+            letter-spacing: 4px;
+            border-radius: 6px;
+          "
+        >
+          <%= otp %>
+        </div>
+      </div>
+
+      <div
+        style="
+          font-size: 16px;
+          color: #444444;
+          margin-top: 16px;
+          line-height: 1.6;
+        "
+      >
+        This OTP will expire in 15 minutes. If you did not initiate this
+        request, please ignore this email.
+        <br /><br />
+        Welcome to Wedzie!
+      </div>
+
+      <div
+        style="
+          font-size: 14px;
+          color: #888888;
+          margin-top: 32px;
+          text-align: center;
+        "
+      >
+        &copy; <%= new Date().getFullYear() %> Wedzie. All rights reserved.
+      </div>
+    </div>
+  </body>
+</html>

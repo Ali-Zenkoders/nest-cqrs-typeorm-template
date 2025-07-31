@@ -1,0 +1,7 @@
+export enum UserWeddingBudget {
+  ZERO_TO_FIFTEEN_K = '0-15_000',
+  FIFTEEN_K_TO_THIRTY_K = '15_000-30_000',
+  THIRTY_K_TO_SIXTY_K = '30_000-60_000',
+  SIXTY_K_TO_HUNDRED_K = '60_000-100_000',
+  HUNDRED_K_PLUS = '100_000+',
+}
