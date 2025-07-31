@@ -1,10 +1,6 @@
-Here’s a well-structured `README.md` file that documents and explains all the major features you've implemented in your NestJS project:
-
----
-
 # Nest CQRS Typeorm API
 
-**Nest CQRS Typeorm API** is the backend service for **Nest CQRS Typeorm**, a wedding arrangement platform. Built with [NestJS](https://nestjs.com/) and powered by Fastify, this API provides secure, scalable, and maintainable architecture using modern best practices.
+**Nest CQRS Typeorm API** is the backend service for **Nest CQRS Typeorm**, template. Built with [NestJS](https://nestjs.com/) and powered by Fastify, this API provides secure, scalable, and maintainable architecture using modern best practices.
 
 ---
 
